@@ -1,0 +1,42 @@
+package learn;
+
+public class Test {
+	public static void main (String[] args) {
+		//System.out.println("hello world!");
+//		int i = 0;//声明并初始化变量 [选中多行，Ctrl + /批量注释]
+//		i = 1;
+//		int k = 10;
+//		i = k;
+//		
+//		short s = 9;
+//		short s0 = 11;
+//		
+//		byte b = 1;
+//		int m = b;
+		
+//		int i = 0;
+//		byte b = i;	//这种异常叫编译器异常，只有执行javac的时候才能发现
+		
+//		int i = 1;
+//		short s = 2;
+//		byte b = 3;
+//		
+//		int res = i + s + b;	//问题，最后得到的6是什么类型？在计算过程中，i,s,b这三个变量会做数据类型的转换吗？
+//		//在计算过程中，整数类型是int范围最大，所以s和b都分别先转换成int类型然后再进行加运算，最终结果为int类型
+//		
+//		char c = 'a';	//char类型的数据在与数字加减乘除时，转换为其对应的ASCII码的值然后再进行计算
+//		byte b0 = 2;
+//		int k = c + b0;
+//		
+//		System.out.println(k);		
+		
+		String str = "abc";
+		int i = 1;
+		System.out.println(abc + i);
+		
+		
+
+
+	}
+
+}

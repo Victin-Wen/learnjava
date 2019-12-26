@@ -1,0 +1,18 @@
+package learn;
+
+public class Test {
+	public static void main (String[] args) {
+		//System.out.println("hello world!");
+		int i = 0;//声明初始化变量
+		i = 1;
+		int k = 10;
+		i = k;
+		
+		short s = 9;
+		short s0 = 11;
+		s0 = s;
+		System.out.println(s0);
+
+	}
+
+}
